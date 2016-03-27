@@ -1,7 +1,7 @@
 <?php
 
     session_start();
-    $_SESSION["menu"] = array("Contact", "Sample","Desginer","Introduction","Home");
+    $_SESSION["menu"] = array("联系我们", "案例","设计师","介绍","首页");
     ?>
 <!DOCTYPE html>
 <html>
@@ -27,9 +27,9 @@
   </div>
 </div>
 <div class="bottom" align="center">
-  <a class="user_behave" style="margin-right:90px" href="login.php">Log in</a>
-  <a class="user_behave" style="margin-left:0px" href="http://www.baidu.com">Sign up</a>
-  <p align="center" class="address">#312 2-3 Minsheng Road   Yuzhong District   Chongqing   China   400010</p>
+  <a class="user_behave" style="margin-right:90px" href="login.php">登录</a>
+  <a class="user_behave" style="margin-left:0px" href="http://www.baidu.com">注册</a>
+  <p align="center" class="address">中国重庆市渝中区邹容路38号2-3-2 400010</p>
 </div>
 
 </body>

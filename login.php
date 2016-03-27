@@ -18,8 +18,8 @@
 <!-- header  -->
 <div class="login" align="center">
   <form align="right" style="color:black;font-family:sans-serif;font-size:1.2em" method="POST" action="loginProcess.php">
-    Account<input style="margin-top:100px" class="loginForm" type="text" name="account"></br>
-    Password<input class="loginForm" type="password" name="password"></br>
+    <b>账号</b><input style="margin-top:100px" class="loginForm" type="text" name="account"></br>
+    <b>密码</b><input class="loginForm" type="password" name="password"></br>
     <input class="loginbutton" type="submit" value="" align="center">
   </form>
 </div>
