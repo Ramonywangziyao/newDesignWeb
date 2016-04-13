@@ -3,13 +3,14 @@ body.general{
   margin: auto;
   min-width: 1024px;
   width:900px;
+  background-color: #292929;
 }
 div.welcome{
   position:relative;
   background-image: url("../img/main/background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  top:0px;
+  top:200px;
   left:0px;
   width: 100%;
   height:700px;
@@ -55,6 +56,15 @@ div.menu{
   min-width: 500px;
 
 }
+.welcomeLetter{
+  position: relative;
+  margin: auto;
+  top:270px;
+  color:white;
+  font-family: sans-serif;
+  font-size: 2.5em;
+
+}
 a.title{
   color: white;
   font-family: sans-serif;
@@ -78,14 +88,37 @@ a.user_behave{
 a.user_behave:hover{
   color:#ff2400;
 }
+p.user_behave{
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  margin:0;
+  top:50px;
+  left:50px;
+}
+.logout{
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  margin:auto;
+  top:65px;
+  left:0px;
+  text-decoration: none;
+}
+.logout:hover{
+  color:#ff2400;
+}
 div.bottom{
   height:150px;
-  position:relative;
+  position:fixed;
   bottom:0px;
+  margin:auto;
   background-color: #292929;
   width: 100%;
   min-width: 1024;
   margin:0;
+  left:0px;
+  opacity: 0.95;
 }
 p.address{
   color:white;
@@ -95,4 +128,116 @@ p.address{
   text-align: center;
   top:70px;
   font-size: 0.7em;
+}
+div.designerSection{
+  position:relative;
+  width:70%;
+  margin:auto;
+  padding-bottom: 50px;
+}
+div.portfolio{
+  height: 500px;
+  width: 100%;
+  position:relative;
+  margin-top: 80px;
+  font-family: sans-serif;
+
+}
+div.introDesigner{
+
+  position:relative;
+  float: right;
+  width: 60%;
+  height:100%;
+  font-family: sans-serif;
+  left:30px;
+  top:30px;
+}
+div.photoDesigner{
+  position: relative;
+  float:left;
+  width: 40%;
+  height: 100%;
+}
+.imageStyle{
+  position: absolute;
+  overflow: hidden;
+  margin:0;
+  left:-28px;
+  top:85px;
+}
+.designerName{
+  position:relative;
+  top:100px;
+  color:#ff2400;
+}
+.designerPosition{
+  position:relative;
+  top:105px;
+  color:white;
+}
+.designerIntro{
+  position:relative;
+  top:110px;
+  color:white;
+}
+
+.example{
+  width: 410.5%;
+  height:500px;
+  left:-300px;
+  top:250px;
+  background-color: #292929;
+  position: relative;
+  vertical-align: top;
+  overflow-y: hidden;
+}
+.exampleInstance{
+  position: relative;
+  width: 800px;
+  height:500px;
+  margin-right: 20px;
+  background-color: #292929;
+  float: left;
+
+}
+.exampleStyle{
+  top:0px;
+  width: 800px;
+  height:auto;
+}
+.exampleIntro{
+  width: 410.5%;
+  height:110px;
+  left:-300px;
+  top:280px;
+  background-color: #292929;
+  position: relative;
+  vertical-align: top;
+  overflow-y: hidden;
+}
+
+.exampleIntroInstance{
+  position: relative;
+  width: 800px;
+  height:110px;
+  margin-right: 20px;
+  background-color: #292929;
+  float: left;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.4em;
+  padding-top: 10px;
+  font-weight: bold;
+  color:#d0d0d0;
+
+}
+.exampleTitle{
+  font-family: sans-serif;
+  position: absolute;
+  top:450px;
+  left:190px;
+  font-size: 3em;
+
+  font-weight: bold;
 }
