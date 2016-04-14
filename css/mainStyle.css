@@ -3,11 +3,43 @@ body.general{
   margin: auto;
   min-width: 1024px;
   width:900px;
-  background-color: #292929;
+  background-color: black;
+}
+div.texture{
+  width: 100%;
+  height:100%;
+  position: fixed;
+  left:0;
+  top:0;
+  background-image: url("../img/main/break.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  opacity: 0.7;
+  min-width: 1024px;
+  margin: auto;
+}
+div.cover{
+  width: 100%;
+  height:100%;
+  position: fixed;
+  left:0;
+  top:0;
+  background-color: black;
+  opacity: 0.85;
+}
+.coverTitle{
+  position: relative;
+  left:30px;
+  top:-200px;
+  margin:0;
+  color:white;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-align: center;
 }
 div.welcome{
   position:relative;
-  background-image: url("../img/main/background.jpg");
+  background-image: url("../img/main/welcometrans.png");
   background-repeat: no-repeat;
   background-size: 100%;
   top:200px;
@@ -16,11 +48,48 @@ div.welcome{
   height:700px;
   margin:auto;
   margin-left: 0px;
-  min-width: 1024;
+  min-width: 1024px;
   margin-top: -8px;
+  opacity: 0.5;
+}
+div.trans2{
+  background-color:black;
+  position: fixed;
+  width:200px;
+  height:200px;
+  left:25px;
+  opacity: 0.9;
+}
+div.trans3{
+  background-color:black;
+  position: fixed;
+  width:100px;
+  height:100px;
+  left:225px;
+  top:595px;
+  opacity: 0.9;
+}
+div.trans4{
+  background-color:black;
+  position: fixed;
+  width:50px;
+  height:50px;
+  left:285px;
+  top:995px;
+  opacity: 0.9;
+}
+div.trans5{
+  background-color:black;
+  position: relative;
+  float: right;
+  width:70px;
+  height:70px;
+  top:-400px;
+  left:650px;
+  opacity: 0.9;
 }
 div.header{
-  background-image: url("../img/main/bar.png");
+  //background-image: url("../img/main/bar.png");
   position:fixed;
   top:0px;
   left:0px;
@@ -30,6 +99,8 @@ div.header{
   margin:auto;
   margin-left: -8px;
   margin-top: 20px;
+  font-family: sans-serif;
+  font-weight: bolder;
 }
 div.logo{
   position:absolute;
@@ -54,7 +125,6 @@ div.menu{
   height:50px;
   width:100%;
   min-width: 500px;
-
 }
 .welcomeLetter{
   position: relative;
@@ -73,10 +143,13 @@ a.title{
   text-decoration: none;
   margin:auto;
   float: right;
+  opacity: 0.5;
 }
+
 a.title:hover{
-  color:#ff2400;
+  color:#a58b72;
 }
+
 a.user_behave{
   color: white;
   font-family: sans-serif;
@@ -86,7 +159,7 @@ a.user_behave{
   text-decoration: none;
 }
 a.user_behave:hover{
-  color:#ff2400;
+  color:#a58b72;
 }
 p.user_behave{
   color: white;
@@ -94,7 +167,7 @@ p.user_behave{
   position: relative;
   margin:0;
   top:50px;
-  left:50px;
+  left:46px;
 }
 .logout{
   color: white;
@@ -106,14 +179,14 @@ p.user_behave{
   text-decoration: none;
 }
 .logout:hover{
-  color:#ff2400;
+  color:#a58b72;
 }
 div.bottom{
   height:150px;
   position:fixed;
   bottom:0px;
   margin:auto;
-  background-color: #292929;
+  background-color: black;
   width: 100%;
   min-width: 1024;
   margin:0;
@@ -134,6 +207,7 @@ div.designerSection{
   width:70%;
   margin:auto;
   padding-bottom: 50px;
+
 }
 div.portfolio{
   height: 500px;
@@ -141,6 +215,7 @@ div.portfolio{
   position:relative;
   margin-top: 80px;
   font-family: sans-serif;
+  opacity: 0.5;
 
 }
 div.introDesigner{
@@ -152,11 +227,13 @@ div.introDesigner{
   font-family: sans-serif;
   left:30px;
   top:30px;
+  margin:0;
 }
 div.photoDesigner{
   position: relative;
   float:left;
   width: 40%;
+  margin:0;
   height: 100%;
 }
 .imageStyle{
@@ -169,7 +246,7 @@ div.photoDesigner{
 .designerName{
   position:relative;
   top:100px;
-  color:#ff2400;
+  color:#a7adc0;
 }
 .designerPosition{
   position:relative;
@@ -187,10 +264,10 @@ div.photoDesigner{
   height:500px;
   left:-300px;
   top:250px;
-  background-color: #292929;
   position: relative;
   vertical-align: top;
   overflow-y: hidden;
+
 }
 .exampleInstance{
   position: relative;
@@ -199,7 +276,7 @@ div.photoDesigner{
   margin-right: 20px;
   background-color: #292929;
   float: left;
-
+  opacity: 0.65;
 }
 .exampleStyle{
   top:0px;
@@ -211,7 +288,6 @@ div.photoDesigner{
   height:110px;
   left:-300px;
   top:280px;
-  background-color: #292929;
   position: relative;
   vertical-align: top;
   overflow-y: hidden;
@@ -222,14 +298,14 @@ div.photoDesigner{
   width: 800px;
   height:110px;
   margin-right: 20px;
-  background-color: #292929;
   float: left;
   text-align: center;
   font-family: sans-serif;
   font-size: 1.4em;
   padding-top: 10px;
   font-weight: bold;
-  color:#d0d0d0;
+  color:white;
+  opacity: 1;
 
 }
 .exampleTitle{
@@ -238,6 +314,50 @@ div.photoDesigner{
   top:450px;
   left:190px;
   font-size: 3em;
-
+  color:white;
   font-weight: bold;
+}
+
+.map{
+  position: relative;
+  margin: 0;
+  width: 900px;
+  height:700px;
+  background-image:url("../img/main/map.png");
+  background-size: 150%;
+  background-repeat: no-repeat;
+  top:250px;
+  left:-500px;
+  opacity: 0.5;
+
+}
+.contactFrame{
+  position: relative;
+  margin: 0;
+  width: 900px;
+  height:700px;
+  background-color: black;
+  top:0;
+  left:900px;
+  opacity: 0.5;
+
+}
+.companyIntro{
+  position: relative;
+  color:white;
+  width:70%;
+  left:200px;
+  font-family: sans-serif;
+  top:240px;
+  font-size: 1.2em;
+  text-align:justify;
+}
+.companyTitle{
+  position: relative;
+  color:white;
+  width:70%;
+  left:315px;
+  font-family: sans-serif;
+  top:220px;
+  font-size: 3em;
 }

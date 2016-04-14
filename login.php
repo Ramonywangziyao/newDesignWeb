@@ -10,6 +10,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" href="nd.ico"/>
+<link rel="shortcut icon" href="nd.ico"/>
 <link rel="stylesheet" type="text/css" href="css/login.css">
 <title>Lijie Wang's Company</title>
 </head>

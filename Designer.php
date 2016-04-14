@@ -6,15 +6,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" href="nd.ico"/>
+<link rel="shortcut icon" href="nd.ico"/>
 <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
 <title>Lijie Wang's Company</title>
 </head>
 <body class="general">
+  <div class="texture" style="opacity:0.2">
 
+  </div>
 <!-- header  -->
 
 <div class="designerSection">
-  <div class="portfolio">
+  <div class="portfolio" id="one">
     <div class="introDesigner">
       <h2 class="designerName">Will Hooker</h2>
       <h3 class="designerPosition">职务：首席设计师</h3>
@@ -24,7 +28,7 @@
       <img class="imageStyle" src="img/designers/1.jpg"/>
     </div>
   </div>
-  <div class="portfolio">
+  <div class="portfolio"  id="two">
     <div class="introDesigner">
       <h2 class="designerName">李婉莹</h2>
       <h3 class="designerPosition">职务：高级设计师</h3>
@@ -34,7 +38,7 @@
       <img class="imageStyle" src="img/designers/2.jpg"/>
     </div>
   </div>
-  <div class="portfolio">
+  <div class="portfolio"  id="three">
     <div class="introDesigner">
       <h2 class="designerName">李亮</h2>
       <h3 class="designerPosition">职务：高级设计师</h3>
@@ -44,7 +48,7 @@
       <img class="imageStyle" src="img/designers/3.jpg"/>
     </div>
   </div>
-  <div class="portfolio">
+  <div class="portfolio" id="four">
     <div class="introDesigner">
       <h2 class="designerName">王丽洁</h2>
       <h3 class="designerPosition">职务：创始人 园艺设计师</h3>
@@ -57,7 +61,7 @@
       <img class="imageStyle" src="img/designers/4.jpg"/>
     </div>
   </div>
-  <div class="portfolio">
+  <div class="portfolio" id="five">
     <div class="introDesigner">
       <h2 class="designerName">何悦</h2>
       <h3 class="designerPosition">职务：平面设计师</h3>
@@ -85,7 +89,7 @@
     <p class="icon">NEW DESIGN</p>
   </div>
   <div class="menu">
-    <a href="http://www.baidu.com" style="margin-right:180px" class="title"><?php echo $_SESSION["menu"][0] ?></a>
+    <a href="contact.php" style="margin-right:180px" class="title"><?php echo $_SESSION["menu"][0] ?></a>
     <a href="example.php" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][1] ?></a>
     <a href="Designer.php" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][2] ?></a>
     <a href="introduction.php" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][3] ?></a>
@@ -94,11 +98,12 @@
 </div>
 
 
-<div class="bottom" align="center">
+<div class="bottom" align="center" style="opacity:0.5">
   <a class="user_behave" style="margin-right:90px" href="login.php">登录</a>
   <a class="user_behave" style="margin-left:0px" href="http://www.baidu.com">注册</a>
   <p align="center" class="address">中国重庆市渝中区邹容路38号2-3-2 400010</p>
 </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/designer.js"></script>
 </body>
 </html>

@@ -6,6 +6,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" href="nd.ico"/>
+<link rel="shortcut icon" href="nd.ico"/>
 <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
 <title>Lijie Wang's Company</title>
 </head>
@@ -18,8 +20,8 @@
     <p class="icon">NEW DESIGN</p>
   </div>
   <div class="menu">
-    <a href="http://www.baidu.com" style="margin-right:180px" class="title"><?php echo $_SESSION["menu"][0] ?></a>
-    <a href="http://www.baidu.com" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][1] ?></a>
+    <a href="contact.php" style="margin-right:180px" class="title"><?php echo $_SESSION["menu"][0] ?></a>
+    <a href="example.php" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][1] ?></a>
     <a href="Designer.php" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][2] ?></a>
     <a href="introduction.php" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][3] ?></a>
     <a href="index.php" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][4] ?></a>
