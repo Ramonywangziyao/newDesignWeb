@@ -33,30 +33,31 @@
   <div class="exampleInstance" id="e5">
     <img class="exampleStyle" src="img/examples/5.jpg"/>
   </div>
+  
+  <div class="exampleIntro">
+    <div class="exampleIntroInstance" id="i1">
+      <p>重庆市鲁能巴蜀中学大礼堂<br/>
+      Chongqing Luneng Bashu middle school</p>
+    </div>
+    <div class="exampleIntroInstance" id="i2">
+      <p>重庆大学<br/>
+      Chongqing University</p>
+    </div>
+    <div class="exampleIntroInstance" id="i3">
+      <p>棕榈泉室内羽毛球馆<br/>
+      Chongqing Palm Beach badminton gym</p>
+    </div>
+    <div class="exampleIntroInstance" id="i4">
+      <p>重庆市巴蜀中学黄花园校区<br/>
+      Chongqing Bashu middle school</p>
+    </div>
+    <div class="exampleIntroInstance" id="i5">
+      <p>重庆市洪崖洞风景区<br/>
+      Chongqing Hongyadong</p>
+    </div>
+  </div>
+</div>
 
-</div>
-<div class="exampleIntro">
-  <div class="exampleIntroInstance" id="i1">
-    <p>重庆市鲁能巴蜀中学大礼堂<br/>
-    Chongqing Luneng Bashu middle school</p>
-  </div>
-  <div class="exampleIntroInstance" id="i2">
-    <p>重庆大学<br/>
-    Chongqing University</p>
-  </div>
-  <div class="exampleIntroInstance" id="i3">
-    <p>棕榈泉室内羽毛球馆<br/>
-    Chongqing Palm Beach badminton gym</p>
-  </div>
-  <div class="exampleIntroInstance" id="i4">
-    <p>重庆市巴蜀中学黄花园校区<br/>
-    Chongqing Bashu middle school</p>
-  </div>
-  <div class="exampleIntroInstance" id="i5">
-    <p>重庆市洪崖洞风景区<br/>
-    Chongqing Hongyadong</p>
-  </div>
-</div>
 
 <div class="header">
   <div class="logo">

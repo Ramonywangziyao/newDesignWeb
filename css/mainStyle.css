@@ -287,8 +287,8 @@ div.photoDesigner{
 .exampleIntro{
   width: 4100px;
   height:110px;
-  left:450px;
-  top:330px;
+  left:0;
+  top:40%;
   position: absolute;
   vertical-align: top;
   overflow-y: hidden;
