@@ -215,7 +215,7 @@
   });
   });
   $( ".bottom" ).mouseout(function() {
-  $(this).fadeTo( "slow" , 0.95, function() {
+  $(this).fadeTo( "slow" , 1, function() {
     // Animation complete.
   });
   });
