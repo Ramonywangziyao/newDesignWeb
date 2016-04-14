@@ -80,7 +80,7 @@
   $(this).fadeTo( "fast" , 1, function() {
     // Animation complete.
   });
-  $('bottom').fadeTo( "fast" , 1, function() {
+  $('.bottom').fadeTo( "fast" , 1, function() {
     // Animation complete.
   });
   if($(this).attr('id')=='e1')
@@ -143,7 +143,7 @@
   $(this).fadeTo( "fast" , 0.65, function() {
     // Animation complete.
   });
-  $('bottom').fadeTo( "fast" , 0.95, function() {
+  $('.bottom').fadeTo( "fast" , 0.95, function() {
     // Animation complete.
   });
   if($(this).attr('id')=='e1')
