@@ -2,7 +2,7 @@ body.general{
   height:1000px;
   margin: auto;
   min-width: 1024px;
-  width:900px;
+  width:40%;
   background-color: black;
 }
 div.texture{
@@ -30,7 +30,7 @@ div.cover{
 .coverTitle{
   position: relative;
   left:30px;
-  top:-200px;
+  top:-25%;
   margin:0;
   color:white;
   font-family: sans-serif;
