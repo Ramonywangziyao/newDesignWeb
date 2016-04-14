@@ -1,0 +1,53 @@
+div.designerSection{
+  position:relative;
+  width:70%;
+  margin:auto;
+  padding-bottom: 50px;
+}
+div.portfolio{
+  height: 500px;
+  width: 100%;
+  position:relative;
+  margin-top: 80px;
+  font-family: sans-serif;
+  opacity: 0.5;
+}
+div.introDesigner{
+  position:relative;
+  float: right;
+  width: 60%;
+  height:100%;
+  font-family: sans-serif;
+  left:30px;
+  top:30px;
+  margin:0;
+}
+div.photoDesigner{
+  position: relative;
+  float:left;
+  width: 40%;
+  margin:0;
+  height: 100%;
+}
+.imageStyle{
+  position: absolute;
+  overflow: hidden;
+  margin:0;
+  left:-28px;
+  top:85px;
+}
+.designerName{
+  position:relative;
+  top:100px;
+  color:#a7adc0;
+}
+.designerPosition{
+  position:relative;
+  top:105px;
+  color:white;
+}
+.designerIntro{
+  position:relative;
+  top:110px;
+  color:white;
+}

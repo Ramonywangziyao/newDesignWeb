@@ -1,6 +1,5 @@
 (function(){
   $(document).on('ready', function() {
-
     $introTitle = $('.coverTitle');
     $introTitle.hide();
     $('.menu').hide();
@@ -24,7 +23,7 @@
     setTimeout(function(){
     $introTitle.hide();
     $introTitle.html("NEW DESIGN STUDIO");
-  }, 7000);
+    }, 7000);
     setTimeout(function(){
       $introTitle.fadeIn('slow');
     }, 7500);
@@ -45,104 +44,75 @@
       $('.bottom').fadeIn('slow');
     }, 11500);
   });
-
   $( ".welcome" ).mouseover(function() {
   $( ".welcome" ).fadeTo( "slow" , 0.7, function() {
-    // Animation complete.
   });
   });
   $( ".welcome" ).mouseout(function() {
   $( ".welcome" ).fadeTo( "slow" , 0.5, function() {
-    // Animation complete.
   });
   });
   $( ".trans2" ).mouseover(function() {
   $(this).fadeTo( "slow" , 0, function() {
-    // Animation complete.
   });
   });
   $( ".trans2" ).mouseout(function() {
   $(this).fadeTo( "slow" , 0.9, function() {
-    // Animation complete.
   });
   });
   $( ".trans3" ).mouseover(function() {
   $(this).fadeTo( "slow" , 0, function() {
-    // Animation complete.
   });
   });
   $( ".trans3" ).mouseout(function() {
   $(this).fadeTo( "slow" , 0.9, function() {
-    // Animation complete.
   });
   });
   $( ".trans4" ).mouseover(function() {
   $(this).fadeTo( "slow" , 0, function() {
-    // Animation complete.
   });
   });
   $( ".trans4" ).mouseout(function() {
   $(this).fadeTo( "slow" , 0.9, function() {
-    // Animation complete.
   });
   });
   $( ".trans5" ).mouseover(function() {
   $(this).fadeTo( "slow" , 0, function() {
-    // Animation complete.
   });
   });
   $( ".trans5" ).mouseout(function() {
   $(this).fadeTo( "slow" , 0.9, function() {
-    // Animation complete.
   });
   });
   $( ".texture" ).mouseover(function() {
   $( ".texture" ).fadeTo( "slow" , 0.7, function() {
-    // Animation complete.
   });
   });
   $( ".texture" ).mouseout(function() {
   $( ".texture" ).fadeTo( "fast" , 0.3, function() {
-    // Animation complete.
   });
   });
-
   $( ".title" ).mouseover(function() {
   $(this).fadeTo( "slow" , 1, function() {
   });
-
   });
   $( ".title" ).mouseout(function() {
   $(this).fadeTo( "slow" , 0.5, function() {
-
   });
   });
   $( ".bottom" ).mouseover(function() {
   $(this).fadeTo( "slow" , 0.5, function() {
-    // Animation complete.
   });
   });
   $( ".bottom" ).mouseout(function() {
   $(this).fadeTo( "slow" , 0.95, function() {
-    // Animation complete.
   });
   });
-$heart = $('.welcome');
-    $heartaudio = $heart.find('audio')[0];
-
-$heart.hover(function(){
-   $heartaudio.play();
-}, function(){
-   $heartaudio.stop();
-});
-
-
-
-
-
-
-
-
-
-
+  $heart = $('.welcome');
+  $heartaudio = $heart.find('audio')[0];
+  $heart.hover(function(){
+  $heartaudio.play();
+  }, function(){
+  $heartaudio.stop();
+  });
 })();

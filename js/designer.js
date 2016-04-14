@@ -30,49 +30,36 @@
       $dfive.fadeIn('slow');
     }, 1300);
   });
-
   $( ".portfolio" ).mouseover(function() {
   $(this).fadeTo( "fast" , 1, function() {
-    // Animation complete.
   });
   });
   $( ".portfolio" ).mouseout(function() {
   $(this).fadeTo( "fast" , 0.7, function() {
-    // Animation complete.
   });
   });
-
-
   $( ".texture" ).mouseover(function() {
   $( ".texture" ).fadeTo( "slow" , 0.5, function() {
-    // Animation complete.
   });
   });
   $( ".texture" ).mouseout(function() {
   $( ".texture" ).fadeTo( "fast" , 0.1, function() {
-    // Animation complete.
   });
   });
-
   $( ".title" ).mouseover(function() {
   $(this).fadeTo( "slow" , 1, function() {
   });
-
   });
   $( ".title" ).mouseout(function() {
   $(this).fadeTo( "slow" , 0.5, function() {
-
   });
   });
   $( ".bottom" ).mouseover(function() {
   $(this).fadeTo( "slow" , 0.5, function() {
-    // Animation complete.
   });
   });
   $( ".bottom" ).mouseout(function() {
   $(this).fadeTo( "slow" , 0.95, function() {
-    // Animation complete.
   });
   });
-
 })();

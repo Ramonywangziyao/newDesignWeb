@@ -1,0 +1,41 @@
+.map{
+  position: absolute;
+  margin: 0;
+  width: 50%;
+  height:auto;
+  background-image:url("../img/main/map.png");
+  background-size: 150%;
+  background-repeat: no-repeat;
+  top:10%;
+  left:0;
+  opacity: 0.5;
+}
+.contactFrame{
+  position: relative;
+  margin: 0;
+  width: 900px;
+  height:700px;
+  background-color: black;
+  top:0;
+  left:100%;
+  opacity: 0.5;
+}
+.companyIntro{
+  position: absolute;
+  color:white;
+  width:70%;
+  left:200px;
+  font-family: sans-serif;
+  top:280px;
+  font-size: 20px;
+  text-align:justify;
+}
+.companyTitle{
+  position: absolute;
+  color:white;
+  width:70%;
+  left:315px;
+  font-family: sans-serif;
+  top:200px;
+  font-size: 48px ;
+}

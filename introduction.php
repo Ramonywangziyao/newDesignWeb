@@ -20,11 +20,11 @@
     <p class="icon">NEW DESIGN</p>
   </div>
   <div class="menu">
-    <a href="contact.php" style="margin-right:180px" class="title"><?php echo $_SESSION["menu"][0] ?></a>
-    <a href="example.php" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][1] ?></a>
-    <a href="Designer.php" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][2] ?></a>
-    <a href="introduction.php" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][3] ?></a>
-    <a href="index.php" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][4] ?></a>
+    <a href="contact.php" style="margin-right:180px" class="title">联系我们</a>
+    <a href="example.php" style="margin-right:30px" class="title">案例</a>
+    <a href="Designer.php" style="margin-right:30px" class="title">设计师</a>
+    <a href="introduction.php" style="margin-right:30px" class="title">介绍</a>
+    <a href="index.php" style="margin-right:30px" class="title">首页</a>
   </div>
 </div>
 
