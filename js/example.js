@@ -143,8 +143,9 @@
   $(this).fadeTo( "fast" , 0.65, function() {
     // Animation complete.
   });
-
-
+  $('bottom').fadeTo( "fast" , 0.95, function() {
+    // Animation complete.
+  });
   if($(this).attr('id')=='e1')
   {
     $('#i1').fadeTo( "fast" , 1, function() {
@@ -218,7 +219,7 @@
   });
   });
   $( ".bottom" ).mouseout(function() {
-  $(this).fadeTo( "slow" , 1, function() {
+  $(this).fadeTo( "slow" , 0.95, function() {
     // Animation complete.
   });
   });
