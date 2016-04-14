@@ -361,21 +361,21 @@ div.photoDesigner{
 
 }
 .companyIntro{
-  position: relative;
+  position: absolute;
   color:white;
   width:70%;
   left:200px;
   font-family: sans-serif;
-  top:240px;
+  top:300px;
   font-size: 20px;
   text-align:justify;
 }
 .companyTitle{
-  position: relative;
+  position: absolute;
   color:white;
   width:70%;
   left:315px;
   font-family: sans-serif;
   top:220px;
-  font-size: 48px;
+  font-size: 48px ;
 }

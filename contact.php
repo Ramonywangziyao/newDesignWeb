@@ -24,7 +24,7 @@
       公司下设设计室，工程部，财务部，质安部，合同预算部，家庭分公司，加工厂。公司现有建筑结构，水电安装，工程设计，环境艺术，工艺美术，工程管理，预决算等各类专业技术，管理人员40余人，项目经理8人，拥有专业技能和丰富的实践经验的各工种技术工人150余人。拥有设计，施工的各种先进仪器，仪表，电脑，软件，机具设备等。能够满足大型装修工程设计及施工需要。
       公司依靠雄厚的设计力量，精湛的施工技术，先进的设备，优质的材料及科学的管理体系，以较短的周期，合理的造价，优良的质量竭诚为业主服务。
     </p>
-    <p class="companyIntro" style="float:right;left:-70px;text-align:right;top:200px">电话：612-222-1412<br/>Email:coco@yun.com
+    <p class="companyIntro" style="float:right;left:200px;text-align:right;top:590px">电话：612-222-1412<br/>Email:coco@yun.com
     </p>
   </div>
 </div>
