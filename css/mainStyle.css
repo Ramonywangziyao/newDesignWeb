@@ -337,15 +337,15 @@ div.photoDesigner{
   font-size: 1.5em;
 }
 .map{
-  position: relative;
+  position: absolute;
   margin: 0;
-  width: 900px;
-  height:700px;
+  width: 50%;
+  height:auto;
   background-image:url("../img/main/map.png");
   background-size: 150%;
   background-repeat: no-repeat;
-  top:250px;
-  left:-500px;
+  top:10%;
+  left:0;
   opacity: 0.5;
 
 }
@@ -356,7 +356,7 @@ div.photoDesigner{
   height:700px;
   background-color: black;
   top:0;
-  left:900px;
+  left:100%;
   opacity: 0.5;
 
 }
@@ -367,7 +367,7 @@ div.photoDesigner{
   left:200px;
   font-family: sans-serif;
   top:240px;
-  font-size: 1.2em;
+  font-size: 20px;
   text-align:justify;
 }
 .companyTitle{
@@ -377,5 +377,5 @@ div.photoDesigner{
   left:315px;
   font-family: sans-serif;
   top:220px;
-  font-size: 3em;
+  font-size: 48px;
 }
