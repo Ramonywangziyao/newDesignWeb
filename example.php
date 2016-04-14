@@ -70,7 +70,10 @@
     <a href="index.php" style="margin-right:30px" class="title"><?php echo $_SESSION["menu"][4] ?></a>
   </div>
 </div>
-
+<div class="exampleDetail">
+  <h1 class="detailTitle">aa</h1>
+  <p class="detailContent">asdasdsa</p>
+</div>
 
 
 <div class="bottom" align="center">

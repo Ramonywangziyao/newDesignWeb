@@ -4,6 +4,7 @@ body.general{
   min-width: 1024px;
   width:40%;
   background-color: black;
+  overflow: visible;
 }
 div.texture{
   width: 100%;
@@ -263,7 +264,7 @@ div.photoDesigner{
   width: 410.5%;
   height:500px;
   left:-300px;
-  top:30%;
+  top:10%;
   position: relative;
   vertical-align: top;
   overflow-y: hidden;
@@ -311,13 +312,30 @@ div.photoDesigner{
 .exampleTitle{
   font-family: sans-serif;
   position: absolute;
-  top:450px;
+  top:20%;
   left:190px;
   font-size: 3em;
   color:white;
   font-weight: bold;
 }
-
+.exampleDetail{
+  position: fixed;
+  width:1000px;
+  height:50%;
+  left:465px;
+  top:700px;
+  opacity: 0;
+}
+.detailTitle{
+  font-family: sans-serif;
+  color:white;
+  font-size: 3em;
+}
+.detailContent{
+  font-family: sans-serif;
+  color:white;
+  font-size: 1.5em;
+}
 .map{
   position: relative;
   margin: 0;
