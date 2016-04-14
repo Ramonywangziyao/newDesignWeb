@@ -263,9 +263,9 @@ div.photoDesigner{
 .example{
   width: 410.5%;
   height:500px;
-  left:-300px;
+  left:470px;
   top:10%;
-  position: relative;
+  position: absolute;
   vertical-align: top;
   overflow-y: hidden;
 
@@ -287,9 +287,9 @@ div.photoDesigner{
 .exampleIntro{
   width: 410.5%;
   height:110px;
-  left:-300px;
-  top:-10px;
-  position: relative;
+  left:450px;
+  top:330px;
+  position: absolute;
   vertical-align: top;
   overflow-y: hidden;
 }
