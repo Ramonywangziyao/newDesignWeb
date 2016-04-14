@@ -16,8 +16,9 @@
 
   </div>
 <!-- header  -->
-<h1 class="exampleTitle">作品集</h1>
+
 <div class="example">
+  <h1 class="exampleTitle">作品集</h1>
   <div class="exampleInstance" id="e1">
     <img class="exampleStyle" src="img/examples/1.jpg"/>
   </div>
@@ -33,7 +34,7 @@
   <div class="exampleInstance" id="e5">
     <img class="exampleStyle" src="img/examples/5.jpg"/>
   </div>
-  
+
   <div class="exampleIntro">
     <div class="exampleIntroInstance" id="i1">
       <p>重庆市鲁能巴蜀中学大礼堂<br/>
