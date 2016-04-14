@@ -22,7 +22,7 @@
     }, 6500);
     setTimeout(function(){
     $introTitle.hide();
-    $introTitle.html("NEW DESIGN STUDIO");
+    $introTitle.html("NOUS STUDIO");
     }, 7000);
     setTimeout(function(){
       $introTitle.fadeIn('slow');
