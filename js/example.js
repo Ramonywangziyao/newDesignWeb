@@ -80,6 +80,9 @@
   $(this).fadeTo( "fast" , 1, function() {
     // Animation complete.
   });
+  $('bottom').fadeTo( "fast" , 1, function() {
+    // Animation complete.
+  });
   if($(this).attr('id')=='e1')
   {
     $('#i1').fadeTo( "fast" , 0, function() {
