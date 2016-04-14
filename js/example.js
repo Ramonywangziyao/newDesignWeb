@@ -77,11 +77,71 @@
   $(this).fadeTo( "fast" , 1, function() {
     // Animation complete.
   });
+  if($(this).attr('id')=='e1')
+  {
+    $('#i1').fadeTo( "fast" , 0, function() {
+      // Animation complete.
+    });
+  }
+  if($(this).attr('id')=='e2')
+  {
+    $('#i2').fadeTo( "fast" , 0, function() {
+      // Animation complete.
+    });
+  }
+  if($(this).attr('id')=='e3')
+  {
+    $('#i3').fadeTo( "fast" , 0, function() {
+      // Animation complete.
+    });
+  }
+  if($(this).attr('id')=='e4')
+  {
+    $('#i4').fadeTo( "fast" , 0, function() {
+      // Animation complete.
+    });
+  }
+  if($(this).attr('id')=='e5')
+  {
+    $('#i5').fadeTo( "fast" , 0, function() {
+      // Animation complete.
+    });
+  }
   });
   $( ".exampleInstance" ).mouseout(function() {
   $(this).fadeTo( "fast" , 0.65, function() {
     // Animation complete.
   });
+  if($(this).attr('id')=='e1')
+  {
+    $('#i1').fadeTo( "fast" , 1, function() {
+      // Animation complete.
+    });
+  }
+  if($(this).attr('id')=='e2')
+  {
+    $('#i2').fadeTo( "fast" , 1, function() {
+      // Animation complete.
+    });
+  }
+  if($(this).attr('id')=='e3')
+  {
+    $('#i3').fadeTo( "fast" , 1, function() {
+      // Animation complete.
+    });
+  }
+  if($(this).attr('id')=='e4')
+  {
+    $('#i4').fadeTo( "fast" , 1, function() {
+      // Animation complete.
+    });
+  }
+  if($(this).attr('id')=='e5')
+  {
+    $('#i5').fadeTo( "fast" , 1, function() {
+      // Animation complete.
+    });
+  }
   });
   $( ".texture" ).mouseover(function() {
   $( ".texture" ).fadeTo( "slow" , 0.5, function() {
