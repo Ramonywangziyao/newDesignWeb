@@ -52,6 +52,10 @@
           Chongqing Hongyadong</p>
       </div>
     </div>
+  <div class='right'>
+  </div>
+  <div class='left'>
+  </div>
   </div>
   <div class="header">
     <div class="logo">

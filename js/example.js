@@ -59,11 +59,38 @@
       $ifive.fadeIn('slow');
     }, 1300);
   });
+  var Ac = 0;
+
   function scrollHorizontally(e) {
     e = window.event || e;
     var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
     document.documentElement.scrollLeft -= (delta*60);
     document.body.scrollLeft -= (delta*60);
+    if(delta==-1&&Ac<2280)
+      Ac+=60;
+    if(delta==1&&Ac>=60)
+      Ac-=60;
+
+    if(delta==-1&&Ac>=360)
+    {
+      $(".left").fadeTo( "slow" , 0.5, function() {
+      });
+    }
+    if(delta==-1&&Ac>=2100)
+    {
+      $(".right").fadeTo( "slow" , 0, function() {
+      });
+    }
+    if(delta==1&&Ac<2100)
+    {
+      $(".right").fadeTo( "slow" , 0.5, function() {
+      });
+    }
+    if(delta==1&&Ac<300)
+    {
+      $(".left").fadeTo( "slow" , 0, function() {
+      });
+    }
     e.preventDefault();
     }
     if (window.addEventListener) {
@@ -191,5 +218,72 @@
   $(this).fadeTo( "slow" , 1, function() {
   });
   });
+  var rightEnd=0;
+  var leftEnd=0;
 
+  $( ".right" ).mouseover(function() {
+  if(rightEnd!=1)
+  {
+  $(this).fadeTo( "slow" , 1, function() {
+  });
+  }
+  });
+  $( ".right" ).mouseout(function() {
+  if(rightEnd!=1)
+  {
+  $(this).fadeTo( "slow" , 0.5, function() {
+  });
+  }
+  });
+
+
+  $( ".left" ).mouseover(function() {
+  if(leftEnd!=1)
+  {
+  $(this).fadeTo( "slow" , 1, function() {
+  });
+  }
+  });
+  $( ".left" ).mouseout(function() {
+  if(leftEnd!=1)
+  {
+  $(this).fadeTo( "slow" , 0.5, function() {
+  });
+  }
+  });
+
+  $(".right").on('click',function(){
+    document.documentElement.scrollLeft -= (-1*840);
+    document.body.scrollLeft -= (-1*840);
+    var scroll = $(window).scrollLeft();
+    if(scroll>=840)
+    {
+      leftEnd=0;
+      $(".left").fadeTo( "slow" , 0.5, function() {
+      });
+    }
+    if(scroll>=2000)
+    {
+      rightEnd=1;
+      $(".right").fadeTo( "slow" , 0, function() {
+      });
+    }
+  });
+  $(".left").on('click',function(){
+    document.documentElement.scrollLeft -= (1*840);
+    document.body.scrollLeft -= (1*840);
+    var scroll = $(window).scrollLeft();
+    if(scroll<100)
+    {
+      leftEnd=1;
+      $(this).fadeTo( "slow" , 0, function() {
+      });
+    }
+    if(scroll<2200)
+    {
+      rightEnd=0;
+      $(".right").fadeTo( "slow" , 0.5, function() {
+      });
+    }
+  });
 })();
