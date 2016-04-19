@@ -4,11 +4,11 @@ This is the official website of a startup interior design studio.
 # Installation
 1. `git clone git@github.com:Ramonywangziyao/newDesignWeb.git`
 2. `cd newdesignweb`
-3. `open createDatabase.php in your browser`
+3. `open createDatabase.php in your browser`</br></br>
 *******has to run on a server*******
 
 # XAMPP
-https://www.apachefriends.org/index.html</br>
+https://www.apachefriends.org/index.html</br></br>
 *******recommand*******
 
 # Feature
