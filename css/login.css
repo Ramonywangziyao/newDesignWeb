@@ -15,10 +15,12 @@ div.login{
 }
 .loginForm{
   margin-right: 350px;
+  margin:auto;
   background-image: url("../img/login/input_background.png");
   background-size:contain;
   background-color: transparent;
   top:0;
+  position: relative;
   left:0;
   margin-left: 15px;
   margin-bottom: 30px;
