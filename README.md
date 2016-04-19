@@ -9,6 +9,10 @@ This is the official website of a startup interior design studio.
 
 # XAMPP
 https://www.apachefriends.org/index.html</br></br>
+Create a directory in xampp/htdocs/</br>
+Run xampp Apache and Mysql</br>
+Open index.php in browser
+
 *******recommand*******
 
 # Feature
