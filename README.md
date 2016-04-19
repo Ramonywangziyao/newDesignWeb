@@ -8,7 +8,7 @@ This is the official website of a startup interior design studio.
 *******has to run on a server*******
 
 # XAMPP
-https://www.apachefriends.org/index.html\n
+https://www.apachefriends.org/index.html/n
 *******recommand*******
 
 # Feature
