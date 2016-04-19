@@ -1,34 +1,22 @@
 (function(){
-  $( ".title" ).mouseover(function() {
-  $(this).fadeTo( "slow" , 1, function() {
+  $( ".texture" ).hover(function() {
+    $(this).stop().animate({opacity:"0.5"});
+    },function(){
+    $(this).stop().animate({opacity:"0.1"});
   });
+  $( ".title" ).hover(function() {
+    $(this).stop().animate({opacity:"1"});
+    },function(){
+    $(this).stop().animate({opacity:"0.5"});
   });
-  $( ".title" ).mouseout(function() {
-  $(this).fadeTo( "slow" , 0.5, function() {
+  $( ".bottom" ).hover(function() {
+    $(this).stop().animate({opacity:"0.5"});
+    },function(){
+    $(this).stop().animate({opacity:"0.95"});
   });
-  });
-  $( ".texture" ).mouseover(function() {
-  $( ".texture" ).fadeTo( "slow" , 0.7, function() {
-  });
-  });
-  $( ".texture" ).mouseout(function() {
-  $( ".texture" ).fadeTo( "fast" , 0.3, function() {
-  });
-  });
-  $( ".bottom" ).mouseover(function() {
-  $(this).fadeTo( "slow" , 0.5, function() {
-  });
-  });
-  $( ".bottom" ).mouseout(function() {
-  $(this).fadeTo( "slow" , 0.95, function() {
-  });
-  });
-  $( ".login" ).mouseover(function() {
-  $(this).fadeTo( "slow" , 1, function() {
-  });
-  });
-  $( ".login" ).mouseout(function() {
-  $(this).fadeTo( "slow" , 0.4, function() {
-  });
+  $( ".login" ).hover(function() {
+    $(this).stop().animate({opacity:"1"});
+    },function(){
+    $(this).stop().animate({opacity:"0.4"});
   });
 })();

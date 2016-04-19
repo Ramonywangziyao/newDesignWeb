@@ -1,13 +1,13 @@
 .map{
   position: absolute;
   margin: 0;
-  width: 50%;
+  width: 40%;
   height:auto;
   background-image:url("../img/main/map.png");
   background-size: 150%;
   background-repeat: no-repeat;
   top:10%;
-  left:0;
+  left:10%;
   opacity: 0.5;
 }
 .contactFrame{
@@ -34,7 +34,7 @@
   position: absolute;
   color:white;
   width:70%;
-  left:315px;
+  left:485px;
   font-family: sans-serif;
   top:200px;
   font-size: 48px ;

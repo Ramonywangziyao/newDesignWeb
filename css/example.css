@@ -61,6 +61,7 @@
   left:465px;
   top:700px;
   opacity: 0;
+  visibility:hidden;
 }
 .detailTitle{
   font-family: sans-serif;

@@ -30,36 +30,26 @@
       $dfive.fadeIn('slow');
     }, 1300);
   });
-  $( ".portfolio" ).mouseover(function() {
-  $(this).fadeTo( "fast" , 1, function() {
+
+  $( ".portfolio" ).hover(function() {
+    $(this).stop().animate({opacity:"1"});
+    },function(){
+    $(this).stop().animate({opacity:"0.7"});
   });
+  $( ".texture" ).hover(function() {
+    $(this).stop().animate({opacity:"0.5"});
+    },function(){
+    $(this).stop().animate({opacity:"0.1"});
   });
-  $( ".portfolio" ).mouseout(function() {
-  $(this).fadeTo( "fast" , 0.7, function() {
+  $( ".title" ).hover(function() {
+    $(this).stop().animate({opacity:"1"});
+    },function(){
+    $(this).stop().animate({opacity:"0.5"});
   });
+  $( ".bottom" ).hover(function() {
+    $(this).stop().animate({opacity:"0.5"});
+    },function(){
+    $(this).stop().animate({opacity:"0.95"});
   });
-  $( ".texture" ).mouseover(function() {
-  $( ".texture" ).fadeTo( "slow" , 0.5, function() {
-  });
-  });
-  $( ".texture" ).mouseout(function() {
-  $( ".texture" ).fadeTo( "fast" , 0.1, function() {
-  });
-  });
-  $( ".title" ).mouseover(function() {
-  $(this).fadeTo( "slow" , 1, function() {
-  });
-  });
-  $( ".title" ).mouseout(function() {
-  $(this).fadeTo( "slow" , 0.5, function() {
-  });
-  });
-  $( ".bottom" ).mouseover(function() {
-  $(this).fadeTo( "slow" , 0.5, function() {
-  });
-  });
-  $( ".bottom" ).mouseout(function() {
-  $(this).fadeTo( "slow" , 0.95, function() {
-  });
-  });
+
 })();

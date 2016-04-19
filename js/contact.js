@@ -9,44 +9,29 @@
       $('.menu').fadeIn('slow');
     }, 500);
   });
-  $( ".map" ).mouseover(function() {
-  $( ".map" ).fadeTo( "slow" , 0.9, function() {
+  $( ".map" ).hover(function() {
+    $(this).stop().animate({opacity:"0.9"});
+    },function(){
+    $(this).stop().animate({opacity:"0.5"});
   });
+  $( ".contactFrame" ).hover(function() {
+    $(this).stop().animate({opacity:"0.9"});
+    },function(){
+    $(this).stop().animate({opacity:"0.5"});
   });
-  $( ".map" ).mouseout(function() {
-  $( ".map" ).fadeTo( "fast" , 0.5, function() {
+  $( ".texture" ).hover(function() {
+    $(this).stop().animate({opacity:"0.5"});
+    },function(){
+    $(this).stop().animate({opacity:"0.3"});
   });
+  $( ".title" ).hover(function() {
+    $(this).stop().animate({opacity:"0.1"});
+    },function(){
+    $(this).stop().animate({opacity:"0.5"});
   });
-  $( ".contactFrame" ).mouseover(function() {
-  $( ".contactFrame" ).fadeTo( "slow" , 0.9, function() {
-  });
-  });
-  $( ".contactFrame" ).mouseout(function() {
-  $( ".contactFrame" ).fadeTo( "fast" , 0.5, function() {
-  });
-  });
-  $( ".texture" ).mouseover(function() {
-  $( ".texture" ).fadeTo( "slow" , 0.5, function() {
-  });
-  });
-  $( ".texture" ).mouseout(function() {
-  $( ".texture" ).fadeTo( "fast" , 0.3, function() {
-  });
-  });
-  $( ".title" ).mouseover(function() {
-  $(this).fadeTo( "slow" , 1, function() {
-  });
-  });
-  $( ".title" ).mouseout(function() {
-  $(this).fadeTo( "slow" , 0.5, function() {
-  });
-  });
-  $( ".bottom" ).mouseover(function() {
-  $(this).fadeTo( "slow" , 0.5, function() {
-  });
-  });
-  $( ".bottom" ).mouseout(function() {
-  $(this).fadeTo( "slow" , 0.95, function() {
-  });
+  $( ".texture" ).hover(function() {
+    $(this).stop().animate({opacity:"0.5"});
+    },function(){
+    $(this).stop().animate({opacity:"0.95"});
   });
 })();
