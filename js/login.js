@@ -2,7 +2,7 @@
   $( ".texture" ).hover(function() {
     $(this).stop().animate({opacity:"0.5"});
     },function(){
-    $(this).stop().animate({opacity:"0.1"});
+    $(this).stop().animate({opacity:"0.2"});
   });
   $( ".title" ).hover(function() {
     $(this).stop().animate({opacity:"1"});
