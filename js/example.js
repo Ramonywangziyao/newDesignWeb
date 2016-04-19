@@ -1,5 +1,6 @@
 (function(){
   $(document).on('ready', function() {
+    setButtonLocation();
     $eone = $('#e1');
     $etwo = $('#e2');
     $ethree = $('#e3');
@@ -60,7 +61,6 @@
     }, 1300);
   });
   var Ac = 0;
-
   function scrollHorizontally(e) {
     e = window.event || e;
     var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
@@ -75,11 +75,11 @@
     {
       $(".left").stop().animate({opacity:"0.5"});
     }
-    if(delta==-1&&Ac>=2100)
+    if(delta==-1&&Ac>=$('.example').width()*0.5)
     {
       $(".right").stop().animate({opacity:"0"});
     }
-    if(delta==1&&Ac<2100)
+    if(delta==1&&Ac<$('.example').width()*0.5)
     {
       $(".right").stop().animate({opacity:"0.5"});
     }
@@ -246,4 +246,15 @@
       $(".right").stop().animate({opacity:"0.5"});
     }
   });
+  function setButtonLocation(){
+    var position = $('.example').position();
+    var left = position.left;
+    var top = position.top;
+    var height = $('.example').height();
+    var windowWidth = $( window ).width();
+    $('.right').css('top',top+height/2-$('.right').height()/2);
+    $('.right').css('left',windowWidth-100);
+    $('.left').css('top',top+height/2-$('.left').height()/2);
+    $('.left').css('left',50);
+  }
 })();

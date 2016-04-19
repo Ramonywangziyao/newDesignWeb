@@ -1,32 +1,40 @@
+.frame{
+  position: relative;
+  margin: auto;
+  width: 150%;
+  height:500px;
+  left:-25%;
+  top:15%;
+  opacity: 1;
+}
 .map{
-  position: absolute;
-  margin: 0;
-  width: 40%;
-  height:auto;
   background-image:url("../img/main/map.png");
-  background-size: 150%;
   background-repeat: no-repeat;
-  top:10%;
-  left:10%;
-  opacity: 0.5;
+  background-size: 150%;
+  position: absolute;
+  left:0;
+  top:0;
+  width: 50%;
+  margin:0;
+  height:100%;
 }
 .contactFrame{
-  position: relative;
+  position: absolute;
   margin: 0;
-  width: 900px;
-  height:700px;
+  width: 50%;
+  height:100%;
   background-color: black;
   top:0;
-  left:100%;
+  left:50%;
   opacity: 0.5;
 }
 .companyIntro{
   position: absolute;
   color:white;
   width:70%;
-  left:200px;
+  left:25%;
   font-family: sans-serif;
-  top:280px;
+  top:20%;
   font-size: 20px;
   text-align:justify;
 }
@@ -34,8 +42,8 @@
   position: absolute;
   color:white;
   width:70%;
-  left:485px;
+  left:50%;
   font-family: sans-serif;
-  top:200px;
+  top:5%;
   font-size: 48px ;
 }

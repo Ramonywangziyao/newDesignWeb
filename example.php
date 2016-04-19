@@ -13,7 +13,7 @@
 <body class="general">
   <div class="texture">
   </div>
-  <div class="example">
+  <div class="example" id="eg">
     <h1 class="exampleTitle">作品集</h1>
     <div class="exampleInstance" id="e1">
       <img class="exampleStyle" src="img/examples/1.jpg"/>
@@ -52,10 +52,10 @@
           Chongqing Hongyadong</p>
       </div>
     </div>
-  <div class='right'>
-  </div>
-  <div class='left'>
-  </div>
+    <div class='right'>
+    </div>
+    <div class='left'>
+    </div>
   </div>
   <div class="header">
     <div class="logo">
