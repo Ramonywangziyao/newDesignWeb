@@ -30,7 +30,6 @@
       $dfive.fadeIn('slow');
     }, 1300);
   });
-
   $( ".portfolio" ).hover(function() {
     $(this).stop().animate({opacity:"1"});
     },function(){

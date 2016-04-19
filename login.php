@@ -1,9 +1,5 @@
 <?php
     session_start();
-    $_SESSION["usname"]='';
-    $_SESSION["psword"]='';
-    $_SESSION["error"]='';
-    $_SESSION["loggedin"]='';
 ?>
 <!DOCTYPE html>
 <html>
@@ -43,5 +39,12 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="js/login.js"></script>
+  <script type="text/javascript">
+    var check = '<?php echo $_SESSION["error"]; ?>';
+    if(check!='')
+    {
+      $('.login').append("<p>用户名或者密码错误。请重新输入!</p>");
+    }
+  </script>
 </body>
 </html>

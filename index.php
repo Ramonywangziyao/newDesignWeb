@@ -1,7 +1,7 @@
 <?php
     session_start();
-    $_SESSION["logedin"] = "no";
-    $_SESSION["animated"] = "no";
+    $_SESSION["logedin"];
+    $_SESSION["username"];
 ?>
 <!DOCTYPE html>
 <html>
@@ -46,38 +46,9 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="js/mainScript.js"></script>
-  <script type="text/javascript">
-  (function(){
-    $lg = $('#login');
-    $regi = $("#register");
-    $('.bottom').on('click','#logout',function(){
-    $('#accountName').remove();
-    $('#logout').remove();
-    $('.bottom').append("<a class='user_behave' id='login' style='margin-right:90px' href='login.php'>登录</a>");
-    $('.bottom').append("<a class='user_behave' id='register' style='margin-left:0px' href='http://www.baidu.com'>注册</a>");
-    $('.bottom').append("<p align='center' class='address'>中国重庆市渝中区邹容路38号2-3-2 400010</p>");
-    <?php $_SESSION["logedin"] = "no";  ?>
-    });
-    function logined(){
-      $lg.remove();
-      $('.address').remove();
-      $regi.remove();
-      $('.bottom').append("<p align='center' class='user_behave' id='accountName' style='margin-right:90px'>设计 | 本源</p>");
-      $('.bottom').append("<a class='logout' id='logout' style='margin-left:0px'>登出</a>")
-    }
-    <?php
-    function logout(){
-      $_SESSION["logedin"] = "no";
-    }
-    if($_SESSION["logedin"]==true)
-    {
-      echo "logined();";
-    }
-    ?>
-    })();
-  </script>
   <div class="cover">
   </div>
   <h1 class="coverTitle">回归设计的本源</h1>
+  <?php include 'loginStatus.php';?>
 </body>
 </html>

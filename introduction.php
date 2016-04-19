@@ -1,5 +1,5 @@
 <?php
-    $_SESSION["logedin"] = "no";
+    session_start();
 ?>
 <!DOCTYPE html>
 <html>
@@ -29,11 +29,12 @@
     <p class="tempText">COMING SOON</p>
   </div>
   <div class="bottom" align="center">
-    <a class="user_behave" style="margin-right:90px" href="login.php">登录</a>
-    <a class="user_behave" style="margin-left:0px" href="http://www.baidu.com">注册</a>
+    <a class="user_behave" id="login" style="margin-right:90px" href="login.php">登录</a>
+    <a class="user_behave" id="register" style="margin-left:0px" href="http://www.baidu.com">注册</a>
     <p align="center" class="address">中国重庆市渝中区邹容路38号2-3-2 400010</p>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="js/introduction.js"></script>
+  <?php include 'loginStatus.php';?>
 </body>
 </html>

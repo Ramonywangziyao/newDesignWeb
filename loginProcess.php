@@ -16,7 +16,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 		$result = $db->query($sql);
 		if($result->num_rows > 0)
 		{
-      $_SESSION["loggedin"] = true;
+      $_SESSION["logedin"] = "true";
+			$_SESSION["username"] = $account;
+			$_SESSION["error"] = '';
 			header('Location: index.php');
 		}
 		else
@@ -30,4 +32,5 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
   }
 }
 }
+$db->close();
 ?>

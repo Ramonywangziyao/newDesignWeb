@@ -200,3 +200,10 @@ p.address{
   top:70px;
   font-size: 0.7em;
 }
+.logout{
+  color:white;
+  position: relative;
+  margin:auto;
+  top:50px;
+  font-family: sans-serif;
+}
