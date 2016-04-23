@@ -10,4 +10,4 @@
   mail($toEmail,$subject,$emailContent,$header);
   echo "sucess";
  ?>
-//trying to do the send email request. But just no time to make the layout. Final week...But this code should work.
+<!--trying to do the send email request. But just no time to make the layout. Final week...But this code should work.-->
