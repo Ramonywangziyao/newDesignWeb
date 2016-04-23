@@ -27,3 +27,6 @@ https://www.apachefriends.org/index.html</br></br>
 3. `UI improvement`
 4. `online request-email submission`
 5. `Bug check`
+6. `Backend manage page.`
+7. `Data transfer to database`
+
