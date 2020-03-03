@@ -2,7 +2,7 @@
   $name = "ziyao";
   $responEmail = 'a';//$_POST['email'];
   $message = "aa";
-  $emailFrom = 'tonywangziyao@gmail.com';
+  $emailFrom = '';
   $subject = 'New Request from Customer';
   $emailContent = 'A new request by a customer\nEmail: $responEmail \nMessage: $message\n';
   $toEmail = '';
